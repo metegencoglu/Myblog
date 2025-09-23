@@ -52,19 +52,19 @@ export function Contact() {
     {
       icon: <Mail className="w-6 h-6 text-blue-600" />,
       label: 'Email',
-      value: 'oguzalp@oguzalpsoft.com',
-      href: 'mailto:oguzalp@oguzalpsoft.com'
+      value: 'oguzalpsoft@gmail.com',
+      href: 'mailto:oguzalpsoft@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6 text-green-600" />,
       label: 'Telefon',
-      value: '+90 (XXX) XXX-XXXX',
+      value: '+90 545 277 9069',
       href: 'tel:+90XXXXXXXXX'
     },
     {
       icon: <MapPin className="w-6 h-6 text-red-600" />,
       label: 'Konum',
-      value: 'Türkiye',
+      value: 'Türkiye Kütahya' ,
       href: '#'
     }
   ];

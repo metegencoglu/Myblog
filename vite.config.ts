@@ -53,7 +53,7 @@
       target: 'esnext',
       outDir: 'build',
     },
-    base: '/site/',
+    base: '/',
     server: {
       port: 5173,
       open: true,

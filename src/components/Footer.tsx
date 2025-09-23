@@ -106,19 +106,19 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:hello@devblog.com" className="hover:text-white transition-colors duration-200">
-                  hello@devblog.com
+                <a href="mailto:oguzalpsoft@gmail.com" className="hover:text-white transition-colors duration-200">
+                  oguzalpsoft@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <a href="tel:+15551234567" className="hover:text-white transition-colors duration-200">
-                  +1 (555) 123-4567
+                <a href="tel:+90 545 277 9069" className="hover:text-white transition-colors duration-200">
+                  +90 545 277 9069
                 </a>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin className="w-4 h-4 flex-shrink-0" />
-                <span>San Francisco, CA</span>
+                <span>Türkiye Kütahya</span>
               </div>
             </div>
           </div>
