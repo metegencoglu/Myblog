@@ -60,7 +60,7 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build",
+            "build": "node ./scripts/build.js",
             "deploy": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/deploy.ps1",
             "server": "node server/index.js",
             "dev:full": "concurrently \"npm run server\" \"npm run dev\""

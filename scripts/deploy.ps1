@@ -7,7 +7,9 @@ param(
 
 if (-not $RemoteUser -or -not $RemoteHost -or -not $RemotePath) {
     Write-Host "Usage: npm run deploy -- <user> <host> <remotePath> [keyPath]  OR set environment variables DEPLOY_USER, DEPLOY_HOST, DEPLOY_PATH and optionally DEPLOY_KEY"
-    Write-Host "Example: npm run deploy -- meteh@1.2.3.4 /var/www/site C:\\Users\\you\\.ssh\\id_rsa"
+    # Use the current user's profile folder as a safe example for SSH key path instead of a hard-coded user name
+    $exampleKey = Join-Path -Path $env:USERPROFILE -ChildPath 'C:\Users\meteh\OneDrive\Masaüstü\server\DatabaseServer_key.key'
+    Write-Host "Example: npm run deploy -- ubuntu@141.147.4.122 /var/www/html/site $exampleKey"
     exit 1
 }
 
