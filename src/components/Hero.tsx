@@ -136,7 +136,7 @@ export function Hero() {
             {/* Main heading - Left aligned */}
             <div className="space-y-6 mb-8">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
-                Markanızı <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Dijital Dünyada</span> Güçlendirin
+                Markanızı <span className="text-orange-500 font-black">Dijital</span> Dünyada Güçlendirin
               </h1>
               {/* orange underline accent */}
               <div className="h-2 w-32 bg-gradient-to-r from-orange-500 to-amber-400 rounded-full shadow-sm"></div>

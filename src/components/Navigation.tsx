@@ -2,7 +2,11 @@ import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Menu, X } from 'lucide-react';
 
-export function Navigation() {
+interface NavigationProps {
+  onOpenFAQ: () => void;
+}
+
+export function Navigation({ onOpenFAQ }: NavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -15,6 +19,12 @@ export function Navigation() {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
+    if (sectionId === 'faq') {
+      onOpenFAQ();
+      setIsMobileMenuOpen(false);
+      return;
+    }
+    
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -27,6 +37,7 @@ export function Navigation() {
     { label: 'Hakkımızda', id: 'about' },
     { label: 'Blog', id: 'blog' },
     { label: 'Portföy', id: 'about' }, // Links to skills section for now
+    { label: 'SSS', id: 'faq' },
     { label: 'İletişim', id: 'contact' },
   ];
 

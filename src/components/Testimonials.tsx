@@ -53,6 +53,33 @@ export function Testimonials() {
       category: 'Form Sistemi',
       status: 'Geliştirmede',
     },
+    {
+      title: 'Mini CRM Çözümleri',
+      description: 'İşinizi kolaylaştıracak kapsamlı müşteri ilişkileri yönetim sistemi. Müşteri takibi, satış süreçleri ve raporlama özellikleri ile işletmenizin verimliliğini artırın.',
+      image: '/images/Ekran görüntüsü 2025-09-24 142713.png',
+      features: ['Müşteri Takibi', 'Satış Süreçleri', 'Raporlama', 'İletişim Yönetimi'],
+      tech: ['React', 'TypeScript', 'Supabase'],
+      category: 'CRM Sistemi',
+      status: 'Aktif Demo',
+    },
+    {
+      title: 'Profesyonel İş Yönetimi',
+      description: 'Modern iş süreçlerinizi dijitalleştiren kapsamlı yönetim sistemi. Proje takibi, ekip koordinasyonu ve verimlilik analizi.',
+      image: '/images/Ekran görüntüsü 2025-09-24 144942.png',
+      features: ['Proje Yönetimi', 'Ekip Takibi', 'Zaman Yönetimi', 'Raporlama'],
+      tech: ['Vue.js', 'Laravel', 'MySQL'],
+      category: 'İş Yönetimi',
+      status: 'Demo Hazır',
+    },
+    {
+      title: 'Akıllı Analiz Paneli',
+      description: 'Verilerinizi görselleştiren ve iş kararlarınızı destekleyen gelişmiş analiz dashboard\'u. Gerçek zamanlı raporlar ve akıllı öngörüler.',
+      image: '/images/Ekran görüntüsü 2025-09-24 144951.png',
+      features: ['Veri Analizi', 'Grafik Raporlar', 'Trend Analizi', 'Export İmkanı'],
+      tech: ['React', 'Chart.js', 'Node.js'],
+      category: 'Analiz Sistemi',
+      status: 'Aktif Demo',
+    },
   ];
 
   const getCategoryColor = (category: string) => {
@@ -63,6 +90,12 @@ export function Testimonials() {
         return 'bg-[#0A3D62] text-white';
       case 'Form Sistemi':
         return 'bg-purple-600 text-white';
+      case 'CRM Sistemi':
+        return 'bg-emerald-600 text-white';
+      case 'İş Yönetimi':
+        return 'bg-blue-600 text-white';
+      case 'Analiz Sistemi':
+        return 'bg-indigo-600 text-white';
       default:
         return 'bg-gray-100 text-gray-800';
     }
