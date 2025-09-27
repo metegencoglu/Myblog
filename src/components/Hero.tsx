@@ -127,12 +127,6 @@ export function Hero() {
         <div className="flex flex-col lg:flex-row items-center">
           {/* Left Column - Text Content */}
           <div className="w-full lg:w-1/2 lg:pr-12 mb-16 lg:mb-0">
-            {/* Status badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-100 to-white rounded-full shadow-md border border-orange-200 mb-8">
-              <Monitor className="w-4 h-4 text-orange-600" />
-              <span className="text-sm font-medium text-gray-800">Profesyonel E-ticaret Çözümleri</span>
-            </div>
-
             {/* Main heading - Left aligned */}
             <div className="space-y-6 mb-8">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">

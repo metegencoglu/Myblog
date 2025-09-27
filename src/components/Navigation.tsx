@@ -58,7 +58,7 @@ export function Navigation({ onOpenFAQ }: NavigationProps) {
               <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center shadow-lg border border-orange-300">
                 <span className="text-white font-bold text-sm">EB</span>
               </div>
-              <span className="text-gray-800 font-bold text-xl bg-gradient-to-r from-orange-600 via-orange-500 to-amber-500 bg-clip-text text-transparent">
+              <span className="text-orange-600 font-bold text-xl">
                 E-ticaret Blog
               </span>
             </div>
