@@ -204,26 +204,6 @@ export function Contact() {
               </CardContent>
             </Card>
 
-            <Card className="shadow-xl border-0">
-              <CardContent className="p-6">
-                <h3 className="text-xl mb-6 text-gray-800">Follow me</h3>
-                <div className="flex gap-4">
-                  {socialLinks.map((social, index) => (
-                    <a
-                      key={index}
-                      href={social.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`p-3 bg-gray-100 rounded-full text-gray-600 ${social.color} transition-all duration-200 transform hover:scale-110`}
-                      aria-label={social.label}
-                    >
-                      {social.icon}
-                    </a>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-
             {/* CTA */}
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-lg text-white text-center">
               <h3 className="text-xl mb-2">Ready to start your project?</h3>

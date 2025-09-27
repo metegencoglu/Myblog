@@ -57,11 +57,11 @@ export function FAQ({ isOpen, onClose }: FAQProps) {
 
   return (
     <div
-      className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4"
+      className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-6"
       onClick={onClose}
     >
       <div
-        className="relative bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
+        className="relative bg-white rounded-2xl shadow-2xl max-w-3xl w-full max-h-[80vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Çıkış Butonu */}
@@ -73,16 +73,16 @@ export function FAQ({ isOpen, onClose }: FAQProps) {
         </button>
 
         {/* Modal İçerik */}
-        <div className="p-8 pt-4 pb-8">
+        <div className="p-6 pt-4 pb-6">
           {/* Başlık */}
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <HelpCircle className="text-orange-500 w-8 h-8" />
-              <h2 className="text-4xl text-gray-900 font-bold">Sık Sorulan Sorular</h2>
-              <HelpCircle className="text-orange-500 w-8 h-8" />
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <HelpCircle className="text-orange-500 w-6 h-6" />
+              <h2 className="text-3xl text-gray-900 font-bold">Sık Sorulan Sorular</h2>
+              <HelpCircle className="text-orange-500 w-6 h-6" />
             </div>
-            <div className="h-1 w-24 bg-gradient-to-r from-orange-500 to-amber-400 rounded-full mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <div className="h-1 w-20 bg-gradient-to-r from-orange-500 to-amber-400 rounded-full mx-auto mb-4"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
               Web sitesi konusunda merak ettiklerinizin cevaplarını burada bulabilirsiniz. 
               Başka sorularınız için bizimle iletişime geçmekten çekinmeyin.
             </p>
