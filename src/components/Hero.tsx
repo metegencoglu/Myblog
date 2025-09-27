@@ -176,9 +176,9 @@ export function Hero() {
                   <div className="flex items-center justify-center w-10 h-10 bg-orange-100 rounded-lg mr-3">
                     <Trophy className="w-5 h-5 text-orange-500" />
                   </div>
-                  <div className="text-3xl font-bold text-gray-900">50+</div>
+                  <div className="text-3xl font-bold text-gray-900">5+</div>
                 </div>
-                <div className="text-sm font-medium text-gray-600">Başarılı Proje</div>
+                <div className="text-sm font-medium text-gray-600">Tamamlanan Proje</div>
               </div>
 
               <div className="flex flex-col">
@@ -186,9 +186,9 @@ export function Hero() {
                   <div className="flex items-center justify-center w-10 h-10 bg-orange-100 rounded-lg mr-3">
                     <Users className="w-5 h-5 text-orange-600" />
                   </div>
-                  <div className="text-3xl font-bold text-gray-900">100+</div>
+                  <div className="text-3xl font-bold text-gray-900">2+</div>
                 </div>
-                <div className="text-sm font-medium text-gray-600">Mutlu Müşteri</div>
+                <div className="text-sm font-medium text-gray-600">Yıl Deneyim</div>
               </div>
 
               <div className="flex flex-col">
@@ -196,9 +196,9 @@ export function Hero() {
                   <div className="flex items-center justify-center w-10 h-10 bg-amber-100 rounded-lg mr-3">
                     <Star className="w-5 h-5 text-orange-500" />
                   </div>
-                  <div className="text-3xl font-bold text-gray-900">5.0</div>
+                  <div className="text-3xl font-bold text-gray-900">10+</div>
                 </div>
-                <div className="text-sm font-medium text-gray-600">Müşteri Puanı</div>
+                <div className="text-sm font-medium text-gray-600">Teknoloji</div>
               </div>
             </div>
           </div>
